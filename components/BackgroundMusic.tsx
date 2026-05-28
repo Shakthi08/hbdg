@@ -42,7 +42,7 @@ export function BackgroundMusic() {
   return (
     <audio
       ref={audioRef}
-      src="https://assets.mixkit.co/active_storage/sfx/2720/2720-preview.mp3"
+      src="https://www.image2url.com/r2/default/audio/1779976703814-cb3fc703-0e41-4912-9a57-21249cfcc44c.mp3"
       loop
       preload="auto"
       style={{ display: 'none' }}

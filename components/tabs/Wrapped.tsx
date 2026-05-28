@@ -17,6 +17,10 @@ const STATS = [
     label: 'Days of non stop communication',
   },
   {
+    number: '5,00,000+',
+    label: 'Messages exchanged',
+  },
+  {
     number: '101%',
     label: 'Rating as best friend',
   },
@@ -24,6 +28,11 @@ const STATS = [
     number: '∞',
     label: 'Love and support forever',
   },
+  {
+    number: '∞',
+    label: 'Love and support forever',
+  },
+  
 ];
 
 const PLAYLISTS = [
@@ -78,7 +87,7 @@ export function Wrapped() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
       >
-        <Card className="p-8 bg-gradient-to-br from-card to-muted">
+        {/* <Card className="p-8 bg-gradient-to-br from-card to-muted">
           <div className="flex flex-col md:flex-row items-center gap-8 justify-center">
             <div className="flex-shrink-0">
               <motion.div
@@ -125,7 +134,7 @@ export function Wrapped() {
               )}
             </div>
           </div>
-        </Card>
+        </Card> */}
       </motion.div>
 
       {/* Additional Stats */}
